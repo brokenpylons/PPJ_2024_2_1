@@ -1,1 +1,1 @@
-lparen("(") real("1.0") plus("+") real("1.0") rparen(")") 
+plus("+") lparen("(") real("1") plus("+") real("1") rparen(")") 

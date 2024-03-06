@@ -1,1 +1,1 @@
-real("8.0") divides("/") real("2.0") divides("/") real("2.0") 
+real("8") divides("/") real("2") divides("/") real("2") 

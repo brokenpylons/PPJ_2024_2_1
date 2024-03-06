@@ -1,1 +1,1 @@
-real("1.0") plus("+") minus("-") real("1.0") 
+real("1") plus("+") minus("-") real("1") 

@@ -1,1 +1,1 @@
-lparen("(") real("2.0") pow("^") real("3.0") rparen(")") pow("^") real("4.0") 
+lparen("(") real("2") pow("^") real("3") rparen(")") pow("^") real("4") 
