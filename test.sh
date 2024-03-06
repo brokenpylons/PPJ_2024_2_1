@@ -1,10 +1,6 @@
 #!/bin/bash
 pwd
 
-newline() {
-    echo -e "\n"
-}
-
 declare -r path=$(dirname $(realpath "$0"))
 
 declare -i err=0
@@ -18,10 +14,11 @@ do
 
     if [[ "$output" == $(cat "$expected") ]]
     then
-        echo "[OK]"
+        echo -e "[OK]\n"
     else
+      echo -e "\n"
         wdiff <(cat - <<<"$output") "$expected"
-        newline
+        echo -e "[FAIL]\n"
         ((err++))
     fi
 done
