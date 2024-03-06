@@ -1,1 +1,1 @@
-real("3") times("*") real("2") minus("-") real("1") 
+real("3.0") times("*") real("2.0") minus("-") real("1.0") 

@@ -16,7 +16,6 @@ do
     then
         echo -e "[OK]\n"
     else
-      echo -e "\n"
         wdiff <(cat - <<<"$output") "$expected"
         echo -e "[FAIL]\n"
         ((err++))
