@@ -1,1 +1,1 @@
-# Avtomate 2.1
+# Avtomati 2.1
